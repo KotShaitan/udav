@@ -1,3 +1,4 @@
+```python
 class CaesarCipher(object):
     def __init__(self, shift):
         self.shift = shift
@@ -30,3 +31,5 @@ class CaesarCipher(object):
         return self.ans
 c = CaesarCipher(5)
 print(c.decode('HTIJBFWX'))
+
+```
